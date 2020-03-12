@@ -7,7 +7,15 @@
 //
 
 import UIKit
-
+import HandyJSON
+class BaseResponse: HandyJSON {
+    
+    var code : String?
+    
+    required init() {
+        
+    }
+}
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
